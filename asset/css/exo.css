@@ -1,0 +1,52 @@
+header {
+    border-bottom: 2px solid black;
+    height: 250px;
+    width: 1000px;
+}
+.logo {
+    float: left;
+    width: 250px;
+    height: 250px;
+    border-right: 2px solid black;
+    text-align: center;
+}
+.banniere {
+    float: right;
+    width: 748px;
+    height: 175px;
+    border-bottom: 2px solid black; 
+    text-align: center;   
+}
+.contenu {
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(240, 240, 247);
+}
+.menu {
+    width: 250px;
+    height: 730px;
+    border-right: 2px solid black;
+    text-align: center;
+    padding-top: 20px;
+    float: left;
+}  
+.corps {
+float: right;
+width: 748px;
+height: 650px;
+border-bottom: 2px solid black;
+text-align: center;
+}
+.pieds {
+    text-align: center;
+}
+ul {
+    display: inline-flex;
+    list-style: none;
+    }
+nav li {
+    margin-right: 100px;
+}

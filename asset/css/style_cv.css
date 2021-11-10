@@ -1,0 +1,56 @@
+body
+{
+    background: url("images/photo Alex.PNG") fixed no-repeat center lightblue;
+    font-family: Arial;
+    border: 3px blue dashed ;
+}
+h2
+{
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    text-align:center ;
+    /* text-decoration-line: underline; */
+    background-color: blue;
+}
+h4
+{
+    font-style: italic;
+    text-decoration: underline;
+    color: white;
+    background: blue;
+    border: 10px solid blue ;
+    box-shadow:10px 10px 10px black;
+}
+.flottant
+{
+
+    float: right;
+    border: 10px solid black;
+    border-image: linear-gradient(red,blue) 20;
+    padding: 10px;
+    width: 150px; 
+
+}
+#footer
+{
+    height: 200px;
+    background-color: blue;
+    width: auto;
+    color:gree;
+    padding: 20px;  
+}
+a:hover
+{
+color: coral;
+font-style: italic;
+}
+a:visited
+{
+    color: blue;
+}
+p:hover
+{
+    color: green;
+    font-weight: bold;
+}

@@ -1,0 +1,19 @@
+table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 400px;
+    height: auto;
+    /* border-collapse: collapse;  */   
+}
+tr, th, td {
+    padding: 5px ;
+    height: auto;
+    /* border: 5px solid blue; */
+}
+.contenu {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+img {
+    width: 100px;
+    height: 100px;
+}

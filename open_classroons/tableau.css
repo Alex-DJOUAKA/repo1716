@@ -1,0 +1,24 @@
+
+.tableau-style {
+    border-collapse: collapse; /*pour fusionner les lignes du tableau*/
+    border: 3px solid blue; /* la taille, la type de bordure et la couler des bordures */
+    margin-top: 100px; 
+    min-width: 400px;
+    height: auto; 
+    box-shadow: 0px 5px 50px blue; /* création d'ombre du tableau: taille et couleur */
+    font-size: 1.3em; /* taille de tableau */
+}
+thead{
+    background-color: blue;
+    color: beige;
+    text-align: left;
+}
+th, td{
+    padding: 15px 20px;
+}
+tbody tr, td, th{
+    border: 2px solid black;
+}
+tbody tr:nth-child(even) {
+    background-color: beige;
+} 
